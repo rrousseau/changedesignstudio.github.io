@@ -1,0 +1,20 @@
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+script(src='/assets/js/navscroll.js')
+
+mixin nav-content()
+  ul
+    li: a(href='#home') home          
+    li: a(href='#aboutus') about us          
+    li: a(href='#services') services            
+    li: a(href='#portfolio') portfolio           
+    li: a(href='#contactus') contact us
+
+.mobile-nav
+  +nav-content()
+
+header
+  nav.sitenav
+    +nav-content()
+      
+  .mobile-nav-toggle: span
+    

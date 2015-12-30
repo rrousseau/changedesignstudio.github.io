@@ -1,0 +1,153 @@
+section.works
+  height: auto
+  background:
+    color: grey
+    /**image: url(../img/services-back.jpg)
+  background-attachment: fixed
+  background-position: center center
+  background-size: cover
+  overflow: hidden
+
+  .work-header
+    text-align: center
+
+  .work-container
+    width: 100%
+    .cds
+      display: flex
+      flex-direction: column
+      align-items: center
+      text-align: justify
+      .border-box
+        display: flex
+        flex-direction: row
+        align-items: center
+        .title
+          display: flex
+          flex-direction: column
+          align-items: center
+          h3
+            font-size: 2em
+            letter-spacing: 0.1em
+            margin-top: 60px
+          em
+            color: white
+        hr
+          width: 200px
+          border-top: 0px solid white
+
+
+    .work-belt
+      display: flex
+      flex-direction: row
+      width: 100%
+      position: relative
+      left: 0%
+      -webkit-transition: all 800ms
+      -moz-transition: all 800ms
+      transition: all 800ms
+
+      .workblocks-wrap
+        display: flex
+        flex-direction: column
+        .workblocks
+          figure.figure2
+            margin: 0
+            padding: 0
+            background-position: center center
+            background-size: cover
+            width: 33.3%
+            height: 200px
+            text-align: center
+            opacity: 0
+            transform: translateX(20px)
+            transition: all 0.3s ease-in-out
+            overflow: hidden
+            &.is-showing
+              opacity: 1
+              transform: translateX(0px)
+            img
+              width: 100%
+              display: block
+              transform: scale(1)
+              transition: all 0.3s ease-in-out
+            &:hover
+              figcaption
+                cursor: pointer
+                opacity: 0.7
+              img
+                transform: scale(1.1)
+          figcaption.heading
+            width: 100%
+            height: 40px
+            color: white
+            position: absolute
+            bottom: 0px
+            opacity: 0
+            background: black
+            transition: all 0.3s ease-in-out
+
+        .work-grid
+          display: flex
+          flex-wrap: wrap
+          align-content: space-between
+          padding: 15px
+
+          .work
+            display: flex
+            flex-direction: column
+            align-items: center
+            max-width: 300px
+            height: auto
+            padding: 15px
+            margin: 15px
+
+            .icon
+              img
+                width: 50px
+                height: 50px
+                margin-bottom: 0px
+
+            .title
+
+            .desc
+              text-align: justify
+
+            .cta
+              width: 150px
+              border: 0px solid white
+              border-radius: 5px
+              text-align: center
+              margin-top: 20px
+
+              p
+                margin: 5px
+
+      .works-wrap
+        .works-container
+          width: 100%
+          display: flex
+          align-items: center
+          flex-direction: column
+          .works-flex-container
+            display: flex
+            flex-direction: column
+            background-color: rgba(255,255,255,0.2)
+            max-width: 960px
+            margin: 20px
+            padding: 20px
+            .works-return
+              text-align: left
+              img
+                height: 50px
+                width: 50px
+                cursor: pointer
+                position: absolute
+                &:hover
+                  opacity: 0.5
+            .work-logo
+              img
+                height: 60px
+                width: 60px
+            .work-load
+              text-align: justify
